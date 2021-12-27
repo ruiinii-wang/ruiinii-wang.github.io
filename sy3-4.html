@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>隔行换色表格</title>
+<style type="text/css">
+	* {text-align: center;}
+	table {
+		width: 700px;
+		height: 130px;
+		border-collapse: collapse;
+		margin: auto;
+	}
+	tr,td,th {
+		border: 2px solid black;
+	}
+	caption {
+		font-weight: 900;
+
+	}
+	thead {
+		color: white;
+		background-color: #1B90AC;
+	}
+	
+</style>
+</head>
+
+<body>
+<div class="table">
+	<table>
+	<caption>畅销活动排行榜</caption>
+	<thead>
+		<tr>
+			<th>活动编号</th>
+			<th>活动名称</th>
+			<th>会员价</th>
+			<th>参加人数</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr bgcolor="#A9D1CD">
+		<td>001</td>
+		<td>田园风光</td>
+		<td>3800</td>
+		<td>800</td>
+		</tr>
+		<tr bgcolor="#E0E5A8">
+		<td>002</td>
+		<td>海天一色</td>
+		<td>3600</td>
+		<td>700</td>
+		</tr>
+		<tr bgcolor="#A9D1CD">
+		<td>003</td>
+		<td>北欧风情</td>
+		<td>3300</td>
+		<td>600</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr bgcolor="#E0E5A8">
+		<td>004</td>
+		<td>南极风情</td>
+		<td>3100</td>
+		<td>500</td>
+		</tr>
+	</tfoot>
+	</table>
+</div>
+
+</body>
+</html>
